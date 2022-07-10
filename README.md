@@ -42,7 +42,7 @@ This project is simply generate pdf from HTML codes.
   ```
 ## Setup
 > Step 1. Add the JitPack repository to your build file
-<br>Add it in your root setting.gradle(Project Setting) at dependencyResolutionManagement's repositories:
+<br>Add it in your root <b>setting.gradle(Project Setting)</b> at dependencyResolutionManagement's repositories:
 ```gradle
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -54,7 +54,7 @@ dependencyResolutionManagement {
 }
 ```
 > Step 2. Add the dependency
-<br> Add it in your root build.gradle (Module) at the end of dependencies
+<br> Add it in your root <b>build.gradle (Module)</b> at the end of dependencies
 ```gradle
 dependencies { 
 	       implementation 'com.github.manojc362:htmlToPdf:1.0.1'
