@@ -65,13 +65,14 @@ class SavePDF {
                 if(loadingFinished && !redirect){
                     //HIDE LOADING IT HAS FINISHED
                     Log.d("TAG", "onPageFinished: ");
+
                 } else{
                     redirect = false;
                 }
 
             }
         });
-        PrintTheWebPage(this.webView);
+        //PrintTheWebPage(this.webView);
     }
 
 

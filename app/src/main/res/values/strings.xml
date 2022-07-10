@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">htmlToPdf</string>
+    <string name="print">Print</string>
+
 </resources>
